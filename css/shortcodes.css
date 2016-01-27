@@ -12,7 +12,7 @@
 }
 .banner-section .dark-shape {
 	width: 64.6875%;
-	background-color: rgba(26,31, 83,0.8);
+	background-color: #244e8d;
 	position: absolute;
 	left: 0;
 	top: 0;
@@ -211,15 +211,17 @@
 /* - Service Center */
 .service-center .section-header {
 	text-align: center;
-	max-width: 525px;
+	/*max-width: 525px;*/
 	margin: 0 auto;
-}
+	
+} 
 .service-center .section-header h5 {
 	padding-right: 0;
-	color: #bd9c67;
+	color: #244e8d;
 }
 .service-center .section-header h3{
 	letter-spacing: 3px;
+
 }
 .service-center .service-block{
 	text-align: center;
@@ -558,7 +560,7 @@
 }
 /* - Testimonials Section */
 .testimonials-section {
-	background-color: #f8f8f0;
+	background-color: #ffffff;
 	text-align: center;
 }
 .testimonials-section .section-padding:first-child {
@@ -694,13 +696,13 @@
 
 /* - About One Section */
 .aboutone-section {
-	text-align: left;
+	text-align: center;
 }
 .aboutone-section .section-header{
-	max-width: 615px;
+	/*max-width: 615px;*/
 }
 .aboutone-section .section-header h3 {
-	background-position: left bottom;
+	/*background-position: left bottom;*/
 }
 .aboutone-left p {
 	color: #777;

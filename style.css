@@ -1,3 +1,10 @@
+/*Main Colors
+
+color: #bb9a66;
+color: #244e8d;
+
+*/
+
 
 /* ## Global */
 
@@ -88,6 +95,14 @@ a {
     font-style: normal;
 }
 
+
+.imagery {
+	background: url(/images/mountain.png);
+	background-size: cover;
+	height: 400px;
+	/*margin-bottom: -10px;*/
+}
+
 /* - Padding/Margin */
 .no-padding {
 	padding: 0;
@@ -122,8 +137,8 @@ ul {
 }
 /*  - Section Padding */
 .section-padding {
-	padding-top: 60px;
-	padding-bottom: 60px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 
 /* - Section Header */
@@ -134,7 +149,8 @@ ul {
 	font-family: 'eb_garamond08_regular';
 	font-size: 22px;
 	text-transform: uppercase;
-	color: #bb9a66;
+	/*color: #bb9a66;*/
+	color: #244e8d;
 	letter-spacing: 2.5px;
 	margin-bottom: 22px;
 	margin-top: 0px;
@@ -143,9 +159,9 @@ ul {
 	font-family: 'eb_garamond08_regular';
 	font-size: 30px;
 	text-transform: uppercase;
-	color: #333;
+	color: #bb9a66;
 	letter-spacing: 2.5px;
-	background-image: url("images/icon/section-separator.png");
+	background-image: url("images/icon/section-border2.png");
 	background-repeat: no-repeat;
 	background-position: center bottom;
 	padding-bottom: 40px;
@@ -188,7 +204,7 @@ ul {
 	letter-spacing: 0.35px;
 }
 .top-header .col-md-6:last-child > a {
-	background-color: #1a1f53;
+	background-color: #244e8d;
 	color: #fff;
 	padding: 12px 15px 12px 30px;
 	text-transform: uppercase;
@@ -225,7 +241,7 @@ ul {
 	text-align: center;
 }
 .logo-block h4 {
-	color: #1a1f53;
+	color: #244e8d;
 	font-size: 28px;
 	text-transform: uppercase;
 	font-family: 'eb_garamond08_regular';
@@ -286,7 +302,7 @@ ul {
 .middle-header .phone h3 {
 	font-size: 24px;
 	text-transform: uppercase;
-	color: #1a1f53;
+	color: #244e8d;
 	margin-top: 0;
 	font-family: 'eb_garamond08_regular';
 	margin-bottom: 0;
@@ -310,7 +326,7 @@ ul {
 .footer-main {
 	background-color: #252525;
 	padding-top: 76px;
-	border-top: 1px solid #d3d3d3;
+	/*border-top: 1px solid #d3d3d3;*/
 }
 
 /* -- Contact Details */
@@ -559,7 +575,7 @@ ul {
 	color: #fff;
 }
 .page-banner::before {
-	background-color: #1a1f53;
+	background-color: #244e8d;
 	opacity: 0.7;
 	content: "";
 	position: absolute;
@@ -605,12 +621,12 @@ ul {
 	display: inline-block;
 	position: relative;
 	background-color: #fff;
-	color: #1a1f53;
+	color: #244e8d;
 	margin-left: -7%;
 }
 .page-banner .breadcrumb li,
 .page-banner .breadcrumb li a {
-	color: #1a1f53;
+	color: #244e8d;
 	text-transform: uppercase;
 	font-size: 12px;
 	letter-spacing: 0.7px;
@@ -619,7 +635,7 @@ ul {
 	text-decoration: none
 }
 .page-banner .breadcrumb > li + li::before {
-	color: #1a1f53;
+	color: #244e8d;
 }
 
 .about-banner {
@@ -731,10 +747,10 @@ ul {
 /* -- max-width: 767 */
 @media(max-width: 767px) {
 	.page-banner {
-		border-bottom: 1px solid #1a1f53;
+		border-bottom: 1px solid #244e8d;
 	}
 	.section-padding {
-		padding: 40px 0;
+		padding: 10px 0;
 	}
 	/* - Section Header */
 	.section-header h5 {
