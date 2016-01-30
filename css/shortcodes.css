@@ -170,7 +170,7 @@
 
 /* - About Right */
 .about-right p {
-	text-align: left;
+	text-align: justify;
 	font-size: 16px;
 	color: #777;
 	line-height: 28px;
@@ -199,7 +199,7 @@
 .service-section .section-header h5 {
 	color: #333;
 	padding-right: 100px;
-	font-size: 28px;
+	font-size: 22px;
 	/*padding-top: 105px;*/
 }
 
@@ -217,7 +217,7 @@
 } 
 .service-center .section-header h5 {
 	padding-right: 0;
-	color: #244e8d;
+	color: #bb9a66;
 }
 .service-center .section-header h3{
 	letter-spacing: 3px;
@@ -256,7 +256,7 @@
 /* - Achivement Section */
 .achivement-section {
 	text-align: center;
-	background-image: url("../images/Transition.png");
+	background-image: url("../images/mountain2.png");
 	background-repeat: no-repeat;
 	background-size: cover;
 	position: relative;
@@ -264,8 +264,8 @@
 }
 .achivement-section::before {
 	/*background-color: #4d4d42;*/
-	background-color: #1a1f53;
-	opacity: 0.85;
+	background-color: #fff;
+	opacity: 0.1;
 	content: "";
 	position: absolute;
 	display: inline-block;

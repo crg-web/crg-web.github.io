@@ -80,7 +80,7 @@
 								<!-- <p>The Right Response at the Right Time Law Support</p> -->
 							</div>
 							<div class="col-md-6 col-sm-6 text-right">
-								<a href="https://crgmembers.herokuapp.com"><img src="images/icon/icon.png" alt="appoinment"/>
+								<a href="https://crgmembers.herokuapp.com"><img src="images/globe-icon.png" alt=""/>
 								Registered Member Login
 								</a>
 							</div>
@@ -139,9 +139,14 @@
 			</nav>
 		</header>
 
-	<!-- Banner Section -->
-	<div id="banner-slider" class="banner-section">
-		<div id="" class="carousel slide banner-slider" data-ride="carousel">	
+			<!-- Banner Section -->
+	<div id="banner-slider" class="banner-section hidden-xs">
+		<div id="banner-carousel" class="carousel slide banner-slider" data-ride="carousel">	
+			<ol class="carousel-indicators">
+				<li data-target="#banner-carousel" data-slide-to="0" class="active"></li>
+				<li data-target="#banner-carousel" data-slide-to="1"></li>
+				<li data-target="#banner-carousel" data-slide-to="2"></li>
+			</ol>
 			<!-- Wrapper for slides -->
 			<div class="carousel-inner" role="listbox">
 				<div class="item active">
@@ -158,9 +163,60 @@
 								</clipPath>
 							</svg>
 						</div>
-	
 					</div>
 					<img src="images/banner.png" alt="banner-img">
+					<div class="carousel-caption">
+						<div class="container">
+							<div class="col-md-5 col-sm-5 banner-content">
+								<h3>Worldwide Talent Management</h3>
+								<p>With unrivaled practical experience and a deep understanding of the global business and professional services industries, our team of consultants is well-qualified to find exceptional candidates with specialized expertise for key business and practice leadership roles.</p>
+								<a href="about.html#" title="Read More">Learn More<i class="fa fa-angle-right"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="item">
+					<div id="dark-2" class="dark-shape">
+						<svg width="100%" height="100%">
+							<clipPath id="dark_shape-2" clipPathUnits="objectBoundingBox">
+								<polygon points="0.48 0, 1 1, 0 1, 0 0"></polygon>
+							</clipPath>
+						</svg>
+						<div id="triangle-2" class="triangle-shape">
+							<svg width="100%" height="100%">
+								<clipPath id="triangle_shape-2" clipPathUnits="objectBoundingBox">
+									<polygon points="1 0, 1 1, 0 1, 0.45 0"></polygon>
+								</clipPath>
+							</svg>
+						</div>
+					</div>
+					<img src="images/about2.png" alt="banner-img">
+					<div class="carousel-caption">
+						<div class="container">
+							<div class="col-md-5 col-sm-5 banner-content">
+								<h3>Worldwide Talent Management</h3>
+								<p>With unrivaled practical experience and a deep understanding of the global business and professional services industries, our team of consultants is well-qualified to find exceptional candidates with specialized expertise for key business and practice leadership roles.</p>
+								<a href="about.html#" title="Read More">Learn More<i class="fa fa-angle-right"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="item">
+					<div id="dark-3" class="dark-shape">
+						<svg width="100%" height="100%">
+							<clipPath id="dark_shape-3" clipPathUnits="objectBoundingBox">
+								<polygon points="0.48 0, 1 1, 0 1, 0 0"></polygon>
+							</clipPath>
+						</svg>
+						<div  id="triangle-3" class="triangle-shape">
+							<svg width="100%" height="100%">
+								<clipPath id="triangle_shape-3" clipPathUnits="objectBoundingBox">
+									<polygon points="1 0, 1 1, 0 1, 0.45 0"></polygon>
+								</clipPath>
+							</svg>
+						</div>
+					</div>
+					<img src="images/about4.png" alt="banner-img">
 					<div class="carousel-caption">
 						<div class="container">
 							<div class="col-md-5 col-sm-5 banner-content">
@@ -174,6 +230,27 @@
 			</div>
 		</div>
 	</div><!-- Banner Section /- -->
+
+		<!-- Mobile Banner -->
+	<div id="achivement-section" class="container-fluid no-padding achivement-section visible-xs">
+		<div class="section-padding"></div>
+		<div class="row">
+			<!-- Container -->
+			<div class="container">				
+				<div class="section-header">
+					<h3>Worldwide Talent Management</h3>
+				</div>
+				<div class="">
+					<div class="col-md-12 col-sm-12 col-xs-12 about-right">
+						<p>With unrivaled practical experience and a deep understanding of the global business and professional services industries, our team of consultants is well-qualified to find exceptional candidates with specialized expertise for key business and practice leadership roles.</p>
+						<a href="about.html#" title="Read More">Learn More <i class="fa fa-angle-right"></i></a></p>
+					</div>
+				</div>
+			</div><!-- Container /- -->
+			<div class="section-padding"></div>
+		</div>
+	</div><!-- Achivement Section /- -->
+
 	
 	<!-- About Section -->
 	<div id="about-section" class="about-section container-fluid no-padding">
@@ -182,8 +259,8 @@
 		<div class="container">
 			<div class="row">			
 				<div class="section-header">
-					<h5 >Who we are</h5>
-					<h3>Worldwide Talent Management</h3>
+					<h3 >Who we are</h3>
+					<h5>Worldwide Talent Management</h5>
 				</div>
 				<div class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 about-right" >
 					<p>Established in 2005, CRG Corporate is a boutique search firm specialised in providing talent solutions for Business transformation in Finance, HR and IT.<br>
@@ -201,15 +278,15 @@
 		<!-- Container -->
 		<div class="container">
 			<div class="section-header">
-				<h5>Who Trust us</h5>
+				<h3>Who Trust us</h3>
 				<!-- <h3>Companies who partnered with us</h3> -->
 				<br>
 				<div class="col-md-12">
-					<div class="col-md-2 col-md-offset-1">
+					<div class="col-md-2">
 						<img src="images/CRG-Coporate-Sungard.png" alt="">
 					</div>
 					<div class="col-md-2">
-						<img src="images/CRG-Coporate-Atos.png" alt="">
+						<img src="images/CRG-Coporate-Phillips.png" alt="">
 					</div>
 					<div class="col-md-2">
 						<img src="images/CRG-Coporate-CWT.png" alt="">
@@ -220,6 +297,9 @@
 					<div class="col-md-2">
 						<img src="images/CRG-Coporate-HP.png" alt="">
 					</div>
+					<div class="col-md-2">
+						<img src="images/CRG-Coporate-Atos.png" alt="">
+					</div>
 					
 				</div>
 			</div>
@@ -228,37 +308,30 @@
 		<div class="section-padding"></div>
 	</div><!-- Testimonials Section / -->
 	
-	<div class="imagery" >
-		
-	</div>
-
-	<footer class="footer-main container-fluid no-padding">
-		<!-- Container -->
-		<div class="container">		
-			<div class="row">
-				<div class="col-md-6 col-xs-12">
-					<aside class="widget" align="center">
-						<h3 class="widget-title" align="center">Other Links</h3>
-						<!-- <hr> -->
-						<p>Client Login</p>
-						<p>Privacy Policy</p>
-					</aside>
-				</div>
-				<div class="col-md-6 col-xs-12">
-					<aside class="widget" align="center">						
-						<h3 class="widget-title" align="center">Contact us</h3>
-						<!-- <hr> -->
-						<p>Berkeley Square, London, W1J 6BD</p>
-						<p>Email: <a href="mailto:contact@crg-corporate.com">contact@crg-corporate.com</a></p>
-					</aside>
-				</div>
+	<div class="imagery outside" >
+		<div class="row inside">
+			<div class="col-md-6 col-xs-6 hidden-xs" style="text-align:center">
+				<aside class="section-header" align="center">
+					<h3 align="center" style="color:black">Other Links</h3>
+					<!-- <hr> -->
+					<p>Client Login</p>
+					<p>Privacy Policy</p>
+				</aside>
 			</div>
-		</div><!-- Container /- -->
-		<!-- Bottom Footer -->
-		<div class="container-fluid no-padding bottom-footer">
-			<p>&copy; 2016 CRG Corporate. All Rights Reserved.</p>
-		</div><!-- Bottom Footer /- -->
-	</footer>
+			<div class="col-md-6 col-xs-12" style="text-align:center">
+				<aside class="section-header" align="center">						
+					<h3 align="center" style="color:black">Contact us</h3>
+					<!-- <hr> -->
+					<p>Berkeley Square, London, W1J 6BD</p>
+					<p>Email: <a href="mailto:contact@crg-corporate.com">contact@crg-corporate.com</a></p>
+				</aside>
+			</div>
+		</div>	
+	</div>
+	<!-- Footer -->
+	<div class="container-fluid no-padding bottom-footer">
+		<p>&copy; 2016 CRG Corporate. All Rights Reserved.</p>
+	</div><!-- Bottom Footer /- -->
 		
 	</div><!-- Main Container -->
 	<!-- JQuery v1.11.3 -->

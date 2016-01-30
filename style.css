@@ -102,6 +102,14 @@ a {
 	height: 400px;
 	/*margin-bottom: -10px;*/
 }
+.outside {
+	position: relative;
+}
+.inside {
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+}
 
 /* - Padding/Margin */
 .no-padding {
@@ -149,8 +157,8 @@ ul {
 	font-family: 'eb_garamond08_regular';
 	font-size: 22px;
 	text-transform: uppercase;
-	/*color: #bb9a66;*/
-	color: #244e8d;
+	color: #bb9a66;
+	/*color: #244e8d;*/
 	letter-spacing: 2.5px;
 	margin-bottom: 22px;
 	margin-top: 0px;
@@ -159,12 +167,12 @@ ul {
 	font-family: 'eb_garamond08_regular';
 	font-size: 30px;
 	text-transform: uppercase;
-	color: #bb9a66;
+	color: #244e8d;
 	letter-spacing: 2.5px;
 	background-image: url("images/icon/section-border2.png");
 	background-repeat: no-repeat;
 	background-position: center bottom;
-	padding-bottom: 40px;
+	padding-bottom: 5px;
 	line-height: 40px;
 }
 
@@ -546,9 +554,9 @@ ul {
 /* -- Boottom Footer */
 .bottom-footer {
 	background-color: #111416;
-	padding: 25px 0;
+	padding: 10px 0;
 	text-align: center;
-	margin-top: 50px;
+	margin-top: 0px;
 	-moz-box-shadow: 0px 2px 2px 1px #1e1e1e;
 	-webkit-box-shadow: 0px 2px 2px 1px #1e1e1e;	
 	box-shadow: 0px 2px 2px 1px #1e1e1e;
@@ -851,6 +859,17 @@ ul {
 	.about-author {
 		margin-top: 35px;
 	}
+	.imagery {
+    background: url(/images/mountain-mobile.png);
+    background-size: cover;
+    height: 400px;
+    /* margin-bottom: -10px; */
+	}
+	.inside {
+    position: absolute;
+    width: 100%;
+    bottom: 60px;
+}s
 }
 
 /* -- max-width: 992 */
@@ -874,7 +893,7 @@ ul {
 	.text-logo {
 		color: #fff;
 		display: inline-block;
-		font-family: "PT Sans",sans-serif;
+		font-family: 'eb_garamond08_regular';
 		font-size: 24px;
 		line-height: normal;
 		padding-top: 16px;
