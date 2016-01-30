@@ -102,6 +102,18 @@ a {
 	height: 400px;
 	/*margin-bottom: -10px;*/
 }
+.imagery2 {
+	background: url(/images/building.png);
+	background-size: cover;
+	height: 400px;
+	/*margin-bottom: -10px;*/
+}
+.imagery3 {
+	background: url(/images/candidates.png);
+	background-size: cover;
+	height: 400px;
+	/*margin-bottom: -10px;*/
+}
 .outside {
 	position: relative;
 }
