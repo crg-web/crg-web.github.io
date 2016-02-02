@@ -211,7 +211,7 @@ ul {
 }
 
 .top-header {
-	background-color: #f8f8f0;
+	background-color: #fff;
 	/*background-color: #D1BD9C;*/
 	box-shadow: 0 1px 1px rgba(0,0,0,0.13);
 	padding-bottom: 10px;
@@ -297,7 +297,7 @@ ul {
 
 /* -- Middle Header */
 .middle-header {
-	padding: 38px 0 30px;
+	padding:5px 0 5px;
 }
 .middle-header .text-right,
 .middle-header .text-left {
