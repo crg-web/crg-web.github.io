@@ -10,7 +10,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <meta name="description" content="">
+    <meta name="description" content="Worldwide Talent Management">
     <meta name="author" content="">
 
 	<title>CRG Corporate</title>
@@ -37,7 +37,13 @@
 	<link href='https://fonts.googleapis.com/css?family=Philosopher:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Lato:400,100,100italic,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=EB+Garamond' rel='stylesheet' type='text/css'>
-	
+
+	<!-- New Fonts to Try -->
+	<link href='https://fonts.googleapis.com/css?family=Merriweather+Sans' rel='stylesheet' type='text/css'>
+	<!-- font-family: 'Merriweather Sans', sans-serif; -->
+	<link href='https://fonts.googleapis.com/css?family=Fjalla+One' rel='stylesheet' type='text/css'>
+	<!-- font-family: 'Fjalla One', sans-serif; -->
+	<!--  -->
 	<!-- Library - Bootstrap v3.3.5 -->
     <link rel="stylesheet" type="text/css" href="libraries/bootstrap/bootstrap.min.css">
 	
@@ -80,7 +86,7 @@
 								<!-- <p>The Right Response at the Right Time Law Support</p> -->
 							</div>
 							<div class="col-md-6 col-sm-6 text-right">
-								<a href="https://crgmembers.herokuapp.com" target="_blank"><i class="fa fa-lock fa-2x" style="color: #bb9a66;"></i>
+								<a href="/access/home.html"><i class="fa fa-lock fa-2x" style="color: #bb9a66;"></i>
 							</div>
 						</div>
 					</div><!-- container /- -->
@@ -93,15 +99,14 @@
 						<div class="row">
 							<div class="col-md-12 col-sm-12 logo-block">
 								<a href="home.html" class="image-logo" title="Logo">
-									<img src="images/earth-icon.png" alt="Logo" width="120px" style="min-width:100px" />
+									<img src="images/earth-icon.png" alt="Logo" width="130px" style="min-width:100px" />
 								</a>
-								<h4>CRG Corporate</h4>
+								<h4 class="logo-tight">CRG Corporate</h4>
 								<span>Worldwide Talent Management</span>
 							</div>
 						</div>
 					</div><!-- Container -->
 				</div><!-- Logo Block /- -->
-
 			</div><!-- slidepanel /- -->
 			<!-- Navigation -->
 
@@ -110,7 +115,7 @@
 					<div class="row">
 						<div id="loginpanel" class="desktop-hide">
 							<div class="right" id="toggle">
-								<a id="slideit" href="home.html#slidepanel"><i class="fo-icons fa fa-user"></i></a>
+								<a id="slideit" href="home.html#slidepanel"><i class="fo-icons fa fa-unlock"></i></a>
 								<a id="closeit" href="home.html#slidepanel"><i class="fo-icons fa fa-close"></i></a>
 							</div>
 						</div>
@@ -127,7 +132,7 @@
 							<ul class="nav navbar-nav">
 								<li class="active"><a href="home.html">Home</a></li>
 								<li><a href="about.html">About Us</a></li>
-								<li><a href="http://crgmembers.herokuapp.com" target="_blank">Client Login</a></li>
+								<li><a href="/access/home.html">Client Login</a></li>
 								<li><a href="candidates.html">Candidate Space</a></li>
 								<li><a href="mailto:contact@crg-corporate.com">Contact</a></li>
 							</ul>						
@@ -148,24 +153,22 @@
 			<!-- Wrapper for slides -->
 			<div class="carousel-inner" role="listbox" style="height:380px">
 				<div class="item active">
-					<div id="dark-1" class="dark-shape">
-						<svg width="100%" height="100%">
-							<clipPath id="dark_shape-1" clipPathUnits="objectBoundingBox">
-								<polygon points="0.48 0, 1 1, 0 1, 0 0"></polygon>
-							</clipPath>
-						</svg>
-						<div id="triangle-1" class="triangle-shape">
-							<svg width="100%" height="100%">
-								<clipPath id="triangle_shape-1" clipPathUnits="objectBoundingBox">
-									<polygon points="1 0, 1 1, 0 1, 0.45 0"></polygon>
-								</clipPath>
-							</svg>
-						</div>
+					<div >
+						
+						<img src="images/topbanner.png"  class="topbanner" alt="">
 					</div>
-						<img src="images/crgcorporatebanner.png" alt="banner-img">
-					<div class="carousel-caption">
-						<div class="container">
-							<div class="col-md-5 col-sm-5 banner-content" >
+
+					<iframe src="//fast.wistia.net/embed/iframe/u2sa0lk62n?videoFoam=false&autoPlay=true&endVideoBehavior=loop"
+					allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed"
+					name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen
+					oallowfullscreen msallowfullscreen style="width: 100%;margin-left: 20%;height: 660px; margin-top: -3%"></iframe>
+					<script src="//fast.wistia.net/assets/external/iframe-api-v1.js"></script>
+
+					
+						<!-- <img src="images/handshake.gif" alt="banner-img" > -->
+					<div class="carousel-caption" style="top:30%" >
+						<div class="container" style="">
+							<div class="col-md-5 col-sm-5 banner-content">
 								<h3>Worldwide Talent Management</h3>
 								<p>With unrivaled practical experience and a deep understanding of the global business and professional services industries, our team of consultants is well-qualified to find exceptional candidates with specialized expertise for key business and practice leadership roles.</p>
 								<a href="about.html#" title="Read More">Learn More<i class="fa fa-angle-right"></i></a>
@@ -174,47 +177,27 @@
 					</div>
 				</div>
 				<div class="item">
-					<div id="dark-2" class="dark-shape">
-						<svg width="100%" height="100%">
-							<clipPath id="dark_shape-2" clipPathUnits="objectBoundingBox">
-								<polygon points="0.48 0, 1 1, 0 1, 0 0"></polygon>
-							</clipPath>
-						</svg>
-						<div id="triangle-2" class="triangle-shape">
-							<svg width="100%" height="100%">
-								<clipPath id="triangle_shape-2" clipPathUnits="objectBoundingBox">
-									<polygon points="1 0, 1 1, 0 1, 0.45 0"></polygon>
-								</clipPath>
-							</svg>
-						</div>
+				<div >
+						
+						<img src="images/topbanner.png"  class="topbanner" alt="">
 					</div>
-					<img src="images/about2.png" alt="banner-img">
+
+					<img src="images/about2.png" alt="banner-img" style="height:380px; margin-left: 20%">
 					<div class="carousel-caption">
 						<div class="container">
 							<div class="col-md-5 col-sm-5 banner-content">
 								<h3>Clients</h3>
 								<p>Where there are critical gaps we identify then attract talent from outside. Welcome to CRG Corporate.</p>
-								<a href="http://crgmembers.herokuapp.com" title="Access Account">Access Account<i class="fa fa-angle-right"></i></a>
+								<a href="/access/home.html" title="Access Account">Access Account<i class="fa fa-angle-right"></i></a>
 							</div>
 						</div>
 					</div>
 				</div>
 				<div class="item">
-					<div id="dark-3" class="dark-shape">
-						<svg width="100%" height="100%">
-							<clipPath id="dark_shape-3" clipPathUnits="objectBoundingBox">
-								<polygon points="0.48 0, 1 1, 0 1, 0 0"></polygon>
-							</clipPath>
-						</svg>
-						<div  id="triangle-3" class="triangle-shape">
-							<svg width="100%" height="100%">
-								<clipPath id="triangle_shape-3" clipPathUnits="objectBoundingBox">
-									<polygon points="1 0, 1 1, 0 1, 0.45 0"></polygon>
-								</clipPath>
-							</svg>
-						</div>
+					<div >
+						<img src="images/topbanner.png"  class="topbanner" alt="">
 					</div>
-					<img src="images/about4.png" alt="banner-img">
+					<img src="images/about4.png" alt="banner-img" style="height:380px; margin-left: 20%">
 					<div class="carousel-caption">
 						<div class="container">
 							<div class="col-md-5 col-sm-5 banner-content">
@@ -260,15 +243,13 @@
 					<h3 >Who we are</h3>
 					<h5>Worldwide Talent Management</h5>
 				</div>
-				<div class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 about-right" >
-					<p>Established in 2005, CRG Corporate is a boutique search firm specialised in providing talent solutions for Business transformation in Finance, HR and IT.<br>
+				<div class="col-md-6 col-md-offset-3 col-sm-10 col-sm-offset-1 about-right" align="justify" >
+					<p>Established in 2005, CRG Corporate is a boutique search firm specialised in providing talent solutions for Business transformation in Finance, HR, IT and Sales.<br>
 					Our global network of practitioners is the basis of our great success. Our robust operational platform and sourcing methodologies provide a strong capability across sectors worldwide.</p>
 				</div>
 			</div>
 		</div><!-- Container /- -->
 	</div><!-- About Section /- -->
-	
-
 	
 	<!-- Testimonials Section -->
 	<div class="testimonials-section container-fluid no-padding">
@@ -308,11 +289,11 @@
 	
 	<div class="imagery outside" >
 		<div class="row inside">
-			<div class="col-md-6 col-xs-6 hidden-xs" style="text-align:center">
+			<div class="col-md-6 hidden-xs " style="text-align:center">
 				<aside class="section-header" align="center">
 					<h3 align="center" style="color:black">Other Links</h3>
 					<!-- <hr> -->
-					<p><a href="http://crgmembers.herokuapp.com" target="_blank">Client Login</a></p>
+					<p><a href="/access/home.html">Client Login</a></p>
 					<p><a href="privacy.html">Privacy Policy</a></p>
 				</aside>
 			</div>
@@ -320,7 +301,7 @@
 				<aside class="section-header" align="center">						
 					<h3 align="center" style="color:black">Contact us</h3>
 					<!-- <hr> -->
-					<p>Berkeley Square, London, W1J 6BD</p>
+					<p>Berkeley Square House, London, W1J 6BD</p>
 					<p>Email: <a href="mailto:contact@crg-corporate.com">contact@crg-corporate.com</a></p>
 				</aside>
 			</div>

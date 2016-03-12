@@ -9,7 +9,7 @@ color: #244e8d;
 /* ## Global */
 
 body {
-	font-family: 'PT Sans', sans-serif;
+	font-family: 'Merriweather Sans', sans-serif;
 	font-size: 14px;
 	color: #000;
 	overflow-x: hidden;
@@ -22,6 +22,7 @@ img {
 a {
     outline: 0 !important;
 }
+
 
 /* - Font Settings */
 .top-header .col-md-6:last-child > a,
@@ -258,13 +259,18 @@ ul {
 .top-header ul li a:hover {
 	color: #000;
 }
+.topbanner{
+	position: absolute;
+	height: 380px;
+	width: 100%;
+}
 .logo-block {
 	text-align: center;
 	padding-bottom: 15px;
 }
 .logo-block h4 {
 	color: #244e8d;
-	font-size: 28px;
+	font-size: 40px;
 	text-transform: uppercase;
 	font-family: 'eb_garamond08_regular';
 	letter-spacing: 1px;
@@ -297,9 +303,13 @@ ul {
 	right: -30px;
 }
 
+.logo-tight {
+	margin-top: -15px;
+}
+
 /* -- Middle Header */
 .middle-header {
-	padding:5px 0 5px;
+	padding:0px 0 0px;
 }
 .middle-header .text-right,
 .middle-header .text-left {

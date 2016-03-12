@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CRG Member Access</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <script src="https://cdn.firebase.com/js/client/1.1.1/firebase.js"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-7s5uDGW3AHqw6xtJmNNtr+OBRJUlgkNJEo78P4b0yRw= sha512-nNo+yCHEyn0smMxSswnf/OnX6/KwJuZTlNZBjauKhTK0c+zT+q5JOCx0UFhXQ6rJR9jg6Es8gPuD2uZcYDLqSw==" crossorigin="anonymous">
+    <!-- Font -->
+    <link href='https://fonts.googleapis.com/css?family=Merriweather+Sans' rel='stylesheet' type='text/css'>
+    <!-- font-family: 'Merriweather Sans', sans-serif; -->
+    <link rel="stylesheet" type="text/css" href="../libraries/fonts/font-awesome.min.css">
+    <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-serialize-object/2.0.0/jquery.serialize-object.compiled.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/path.js/0.8.4/path.min.js"></script>
+    <link rel="stylesheet" href="main.css">
+    <script src="script.js"></script>
+</head>
+<body>
+
+    <!-- Navbar -->
+   <div class="top-header container-fluid no-padding">
+        <!-- Container -->
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-6">
+                    <!-- <p>The Right Response at the Right Time Law Support</p> -->
+                </div>
+                <div class="col-md-6 col-sm-6 text-right">
+                    <a href="#/logout"><i class="fa fa-unlock-alt fa-2x" style="color: #bb9a66;     font-size: 2.3em;"></i>
+                </div>
+            </div>
+        </div><!-- container /- -->   
+    </div>
+    <!-- Main Site -->
+    <div id="container" class="container" style="margin-top: -10px">  
+        <!-- Logo and Title -->
+        <div class="col-md-12 col-sm-12 logo-block" style="padding-bottom:30px">
+            <a href="../home.html" class="image-logo" title="Logo">
+                <img src="images/earth-icon.png" alt="Logo" width="130px" style="min-width:100px" />
+            </a>
+            <h4 class="logo-tight">CRG Corporate</h4>
+            <span>Worldwide Talent Management</span>
+        </div> 
+
+        <!-- LOGIN -->
+        <form id="frmLogin" role="form" style="min-height:450px;">
+            <div class="col-md-6 col-md-offset-3">
+            <!-- <div class="section-header" align="center">
+                <h3>Member Access</h3>
+            </div> -->
+                <div class="form-group">
+                    <label for="txtEmail">Email address</label>
+                    <input type="email" class="form-control" id="txtEmail" placeholder="If you are a member, enter email" name="email" />
+                </div>
+                <div class="form-group">
+                    <label for="txtPass">Password</label>
+                    <input type="password" class="form-control" id="txtPass" placeholder="and your given password" name="password" />
+                </div>
+                <div class="col-md-6 col-md-offset-3">
+                   <button type="submit" class="btn btn-default btn-block">Login</button> 
+                </div>
+                <br><br>
+                <p>Not a member?</p>
+                <p>Request access <a href="mailto:contact@crg-corporate.com">here</a></p>
+            </div>
+        </form>
+        <!-- LOGOUT -->
+        <form id="frmLogout" role="form" style="min-height:450px;">
+            <div class="col-md-6 col-md-offset-3">
+                <div class="section-header" align="center">
+                    <h3>You are Logged Out</h3>
+                    <br><br>
+                    <p>Click <a href="" value="Reload Page" onClick="window.location.reload()"> Here</a> to login</p>
+                    <!-- <h3>Knowing what the client wants Creates an efficient relationship</h3> -->
+                </div>
+            </div>
+        </form>
+        <!-- PROFILE -->
+        <form id="frmProfile" role="form" style="min-height:450px;">
+            <!-- Container -->
+            <div class="container">
+                <div class="row">      
+                    <div class="section-header">    
+                        <h3 align="center">Welcome to the members page</h3>
+                        <!-- <h3>Knowing what the client wants Creates an efficient relationship</h3> -->
+                    </div>
+                    <div class="col-md-6 col-md-offset-3 col-sm-12 about-right" >
+                        <p>CRG Corporate is committed to building relationships with exceptional practitioners and executives who may qualify as candidates for senior-level roles, now or in the future. We do keep a very close eye on their path, which keeps all our consultants informed about the evolving careers, achievements and aspirations of professionals around the globe.</p>
+                        
+                        <br>
+                        <p>By completing a short registration process and submitting your CV/resume, you can make your details available to our worldwide team of executive search professionals. We will be in touch with you directly if we consider that your profile matches the requirements of a specific role. </p>
+                        <br><br>
+                    </div>
+                </div>
+            </div><!-- Container /- -->
+        </form>
+    </div>
+
+    <!-- Footer  with background image -->
+    <div class="imagery outside" >
+        <div class="row inside">
+            <div class="col-md-6 col-xs-6 hidden-xs" style="text-align:center">
+                <aside class="section-header" align="center">
+                    <h3 align="center" style="color:black">Other Links</h3>
+                    <!-- <hr> -->
+                    <p><a href="../home.html">CRG Corporate</a></p>
+                    <p><a href="../privacy.html">Privacy Policy</a></p>
+                </aside>
+            </div>
+            <div class="col-md-6 col-xs-12" style="text-align:center">
+                <aside class="section-header" align="center">                       
+                    <h3 align="center" style="color:black">Contact us</h3>
+                    <!-- <hr> -->
+                    <p>Berkeley Square House, London, W1J 6BD</p>
+                    <p>Email: <a href="mailto:contact@crg-corporate.com">contact@crg-corporate.com</a></p>
+                </aside>
+            </div>
+        </div>  
+    </div>  
+    <!-- Copyrights -->
+    <div class="container-fluid no-padding bottom-footer">
+         <p>&copy; 2016 CRG Corporate. All Rights Reserved.</p>
+    </div>
+</body>
+</html>
+
