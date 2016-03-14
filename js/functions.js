@@ -72,9 +72,9 @@
 		var height	=	$(window).height();
 
 		/*** set sticky menu ***/
-		if( scroll >= height )
+		if( scroll >= height -500 )
 		{
-			$('.ow-navigation').addClass("navbar-fixed-top animated fadeInDown").delay( 2000 ).fadeIn();
+			$('.ow-navigation').addClass("navbar-fixed-top animated fadeInDown").delay( 1000 ).fadeIn();
 		}
 		else if ( scroll <= height )
 		{
@@ -106,7 +106,7 @@
 		/*** set sticky menu ***/
 		if( scroll >= height -500 )
 		{
-			$('.ow-navigation').addClass("navbar-fixed-top").delay( 2000 ).fadeIn();
+			$('.ow-navigation').addClass("navbar-fixed-top").delay( 1000 ).fadeIn();
 		}
 		else if ( scroll <= height )
 		{
