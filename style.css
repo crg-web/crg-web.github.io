@@ -933,7 +933,7 @@ ul {
 
 	#slideit,
 	#toggle {
-		display: block;
+		display: inline;
 	}
 	#loginpanel {
 		position: absolute;
